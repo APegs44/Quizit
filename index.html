@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <title>Quizit</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/favicon.ico">
+    <meta charset="utf-8">
+  </head>
+  <body>
+
+<div class="quiz-container" id="quiz">
+  <h1>How will you do in the NBA?</h1>
+  <img class="NBA" src="images/NBA.png" alt="">
+  <div class="quiz-header">
+    <h2 id="question">Question Text</h2>
+    <ul>
+      <li>
+        <input class="answer" type="radio" name="answer" id="a">
+        <label for="a" id="a_text">Answer</label>
+      </li>
+      <li>
+        <input class="answer" type="radio" name="answer" id="b">
+        <label for="b" id="b_text">Answer</label>
+      </li>
+      <li>
+        <input class="answer" type="radio" name="answer" id="c">
+        <label for="c" id="c_text">Answer</label>
+      </li>
+      <li>
+        <input class="answer" type="radio" name="answer" id="d">
+        <label for="d" id="d_text">Answer</label>
+      </li>
+
+    </ul>
+  </div>
+
+  <button id="submit" type="button" name="button">Submit</button>
+
+
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
