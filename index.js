@@ -97,7 +97,7 @@ submitBtn.addEventListener('click', () => {
       quiz.innerHTML = `
       <h2>You answered ${score}/${quizData.length} questions correctly.<h2>
 
-      <h3>Undrated/Bust = 0-1, 6th Man = 2, Starter = 3, All Star = 4, Superstar and Future HOF = 5</h3>
+      <h3>Undrafted/Bust = 0-1, 6th Man = 2, Starter = 3, All Star = 4, Superstar and Future HOF = 5</h3>
 
       <button onclick="location.reload()">Reload</button>
      `
